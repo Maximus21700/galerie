@@ -1,0 +1,61 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .tabs {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .content {
+    display: none;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #ff0066;
+  }
+  
+  button {
+    background-color: #ff0066;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+/* Ajoutez ces lignes à la fin du fichier CSS */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #ff0066;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 0, 102, 0.5);
+  }
+  
+  /* Ajoutez ces lignes pour des animations bordéliques */
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25%, 75% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+  }
+  
+  .shake {
+    animation: shake 0.5s ease-in-out infinite;
+  }
