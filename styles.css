@@ -1,61 +1,122 @@
+/* styles.css */
 body {
-    background-color: whitesmoke;
-    margin: 0;
     font-family: Arial, sans-serif;
-  }
-  
-  .header {
-    background-color: white;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
     text-align: center;
-    padding: 20px;
-  }
-  
-  .tabs {
-    background-color: white;
-    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
-  }
-  
-  .content {
-    display: none;
-    padding: 20px;
-  }
-  
-  h2 {
-    color: #ff0066;
-  }
-  
-  button {
-    background-color: #ff0066;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-/* Ajoutez ces lignes à la fin du fichier CSS */
-img {
-    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.intro {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Additional CSS for gallery */
+.gallery {
+    padding: 50px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    width: 200px;
+}
+
+.gallery-item img {
+    width: 100%;
     height: auto;
+    border: 2px solid #333;
+    transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+/* Additional CSS for contact */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
     margin-top: 20px;
-    border: 2px solid #ff0066;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(255, 0, 102, 0.5);
-  }
-  
-  /* Ajoutez ces lignes pour des animations bordéliques */
-  @keyframes shake {
-    0%, 100% {
-      transform: translateX(0);
-    }
-    25%, 75% {
-      transform: translateX(-5px);
-    }
-    50% {
-      transform: translateX(5px);
-    }
-  }
-  
-  .shake {
-    animation: shake 0.5s ease-in-out infinite;
-  }
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
