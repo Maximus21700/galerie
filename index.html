@@ -1,38 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Quai des artistes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie d'Art - Accueil</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
 </head>
 <body>
-  <div class="header">
-    <h1>Mon Site Rose</h1>
-  </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="gallery.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <div class="tabs">
-    <button onclick="changeTab('accueil')">Accueil</button>
-    <button onclick="changeTab('page1')">Page 1</button>
-    <button onclick="changeTab('page2')">Page 2</button>
-  </div>
+    <section class="hero">
+        <h1>Bienvenue à la Galerie d'Art</h1>
+        <p>Découvrez les œuvres d'artistes talentueux.</p>
+    </section>
 
-  <div id="accueil" class="content">
-    <h2>Page d'accueil</h2>
-    <p>Bienvenue sur la page d'accueil!</p>
-    <img src="your_image_url.jpg" alt="Image d'accueil">
-  </div>
+    <section class="intro">
+        <h2>À propos de nous</h2>
+        <p>Notre galerie présente une sélection d'œuvres d'art modernes et contemporaines.</p>
+    </section>
 
-  <div id="page1" class="content">
-    <h2>Page 1</h2>
-    <p>Contenu de la page 1.</p>
-  </div>
+    <footer>
+        <p>© 2024 Galerie d'Art. Tous droits réservés.</p>
+    </footer>
 
-  <div id="page2" class="content">
-    <h2>Page 2</h2>
-    <p>Contenu de la page 2.</p>
-  </div>
-
-  <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
