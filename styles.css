@@ -17,11 +17,12 @@ header {
   list-style-type: none;
   padding: 0;
   text-align: right;
+  margin-top: -10px;
 }
 
 .scdnav ul li {
   display: inline;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 .scdnav ul li a {
@@ -65,17 +66,15 @@ h2 {
 
 .vitrine img{
   width: 30% ;
-  margin-left: -90%;
-  margin-top: -5%;
+  margin-left: -500px;
 }
 
 .accueilphoto img {
   width: 30%;
   margin-right: 10%;
-  margin-top: -5%;
 }
 
 .infoacc {
   text-align: center;
-  margin-bottom: -20%;
+  margin-bottom: -5%;
 }
