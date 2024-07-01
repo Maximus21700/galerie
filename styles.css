@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: black;
+  background-color: aliceblue;
   padding: 10px 0;
 }
 
@@ -17,12 +17,12 @@ header {
   list-style-type: none;
   padding: 0;
   text-align: right;
-  margin-top: -10px;
+  margin-top: -50%;
 }
 
 .scdnav ul li {
   display: inline;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .scdnav ul li a {
@@ -61,20 +61,24 @@ h1 {
 h2 {
   text-align: center;
   font-size: 150%;
-  color: royalblue;
+  color: rgb(92, 33, 33);
 }
 
 .vitrine img{
   width: 30% ;
-  margin-left: 10%;
+  margin-left: 7%;
+  margin-top: -250px;
 }
 
 .accueilphoto img {
   width: 30%;
-  margin-left: 700px;
+  align-self: right;
+  margin-right: 7%;
+  margin-top: -550px;
 }
 
 .infoacc {
+  font-size: 25px;
   text-align: center;
   margin-bottom: -5px;
 }
