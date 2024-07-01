@@ -30,6 +30,7 @@ nav ul li a {
 }
 
 .titre {
+  margin-right: 10%;
   font-family: Arial, sans-serif;
   color: rgb(0, 47, 255);
   text-decoration: none;
