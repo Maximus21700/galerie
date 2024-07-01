@@ -17,15 +17,17 @@ header {
   list-style-type: none;
   padding: 0;
   text-align: right;
-  margin-top: -40px;
+  margin-top: -38px;
 }
 
 .scdnav ul li {
   display: inline;
-  margin: 0 5px;
+  margin: 0 0px;
 }
 
 .scdnav ul li a {
+  margin-right: 5%;
+  font-size: 20px;
   color: rgb(0, 47, 255);
   text-decoration: none;
   font-weight: bold;
@@ -44,6 +46,7 @@ nav ul li {
 }
 
 nav ul li a {
+  font-size: 20px;
   text-align: left;
   margin-left: 8%;
   font-family: Arial, sans-serif;
@@ -67,18 +70,17 @@ h2 {
 .vitrine img{
   width: 30% ;
   margin-left: 7%;
-  margin-top: -200px;
+  margin-top: -350px;
 }
 
 .accueilphoto img {
-  width: 30%;
-  margin-left: 500px;
-  margin-right: 7%;
-  margin-top: -200px;
+  width: 35%;
+  margin-left: 80%;
+  margin-top: -650px;
 }
 
 .infoacc {
-  font-size: 50px;
+  font-size: 25px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
 }
