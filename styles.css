@@ -58,26 +58,26 @@ nav ul li a {
 h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
-  font-size: 300%;
-  margin-top: 10%;
+  font-size: 350%;
+  margin-top: 5%;
 }
 
 h2 {
   text-align: center;
-  font-size: 250%;
+  font-size: 200%;
   color: rgb(92, 33, 33);
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .vitrine img{
-  width: 30% ;
-  margin-left: 7%;
+  width: 27% ;
+  margin-left: 10%;
   margin-top: -350px;
 }
 
 .accueilphoto img {
-  width: 35%;
-  margin-left: 65%;
+  width: 32%;
+  margin-left: 60%;
   margin-top: -700px;
 }
 
