@@ -4,11 +4,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: beige;
-  color: #333;
+  color:black;
 }
 
 header {
-  background-color: #333;
+  background-color: black;
   padding: 10px 0;
 }
 
@@ -61,20 +61,20 @@ h1 {
 h2 {
   text-align: center;
   font-size: 150%;
-  color: #333;
+  color: royalblue;
 }
 
 .vitrine img{
   width: 30% ;
-  margin-left: -500px;
+  margin-left: 10%;
 }
 
 .accueilphoto img {
   width: 30%;
-  margin-right: 10%;
+  margin-left: 700px;
 }
 
 .infoacc {
   text-align: center;
-  margin-bottom: -5%;
+  margin-bottom: -5px;
 }
