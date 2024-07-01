@@ -30,6 +30,27 @@ header {
   font-weight: bold;
 }
 
+nav ul {
+  background-color: aliceblue;
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-align: left;
+  margin-left: 8%;
+  font-family: Arial, sans-serif;
+  color: rgb(0, 47, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
 h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
@@ -39,21 +60,22 @@ h1 {
 h2 {
   text-align: center;
   font-size: 150%;
-  color: yellow;
+  color: #333;
 }
 
 .vitrine img{
   width: 30% ;
   margin-left: -90%;
-  margin-top: -50%;
+  margin-top: -5%;
 }
 
 .accueilphoto img {
   width: 30%;
   margin-right: 10%;
-  margin-top: -50%;
+  margin-top: -5%;
 }
 
 .infoacc {
   text-align: center;
+  margin-bottom: -20%;
 }
