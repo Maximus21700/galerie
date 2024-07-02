@@ -17,7 +17,7 @@ header {
   list-style-type: none;
   padding: 0;
   text-align: right;
-  margin-top: -2%;
+  margin-top: -2.3%;
 }
 
 .scdnav ul li {
@@ -48,7 +48,7 @@ nav ul li {
 nav ul li a {
   font-size: 150%;
   text-align: left;
-  margin-left: 8%;
+  margin-left: 3%;
   font-family: Arial, sans-serif;
   color: rgb(0, 47, 255);
   text-decoration: none;
@@ -77,8 +77,9 @@ h2 {
 
 .accueilphoto img {
   width: 32%;
+  height: 35%;
   margin-left: 65%;
-  margin-top: -75%;
+  margin-top: -35%;
 }
 
 .infoacc {
