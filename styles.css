@@ -27,7 +27,7 @@ header {
 
 .scdnav ul li a {
   margin-right: 5%;
-  font-size: 20px;
+  font-size: 150%;
   color: rgb(0, 47, 255);
   text-decoration: none;
   font-weight: bold;
@@ -46,7 +46,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 20px;
+  font-size: 150%;
   text-align: left;
   margin-left: 8%;
   font-family: Arial, sans-serif;
@@ -72,13 +72,13 @@ h2 {
 .vitrine img{
   width: 27% ;
   margin-left: 10%;
-  margin-top: -350px;
+  margin-top: -25%;
 }
 
 .accueilphoto img {
   width: 32%;
   margin-left: 60%;
-  margin-top: -750px;
+  margin-top: -50%;
 }
 
 .infoacc {
