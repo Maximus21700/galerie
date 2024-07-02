@@ -69,13 +69,13 @@ h2 {
   margin-bottom: 8%;
 }
 
-.vitrine img{
+.vitrine {
   width: 27% ;
   margin-left: 10%;
   margin-top: -25%;
 }
 
-.accueilphoto img {
+.accueilphoto {
   width: 32%;
   height: 35%;
   margin-left: 65%;
@@ -102,13 +102,13 @@ h2 {
 }
 
 .t3 {
-  width : 120%;
+  width : 30%;
   margin-left: 4%;
   margin-top: -20%;
 }
 
 .t4 {
-  width : 150%;
+  width : 30%;
   margin-left: 70%;
   margin-top: -20%;
 }
