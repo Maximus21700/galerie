@@ -17,13 +17,13 @@ header {
   list-style-type: none;
   padding: 0;
   text-align: right;
-  margin-top: -38px;
+  margin-top: -100%;
 }
 
-.scdnav ul li {
-  display: inline;
+/*.scdnav ul li {
+  display: i;
   margin: 0 0px;
-}
+}*/
 
 .scdnav ul li a {
   margin-right: 5%;
@@ -40,10 +40,10 @@ nav ul {
   text-align: left;
 }
 
-nav ul li {
+/*nav ul li {
   display: inline;
   margin: 0 15px;
-}
+}*/
 
 nav ul li a {
   font-size: 150%;
@@ -59,14 +59,14 @@ h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   font-size: 350%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 h2 {
   text-align: center;
   font-size: 200%;
   color: rgb(92, 33, 33);
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 .vitrine img{
@@ -77,12 +77,31 @@ h2 {
 
 .accueilphoto img {
   width: 32%;
-  margin-left: 60%;
-  margin-top: -50%;
+  margin-left: 65%;
+  margin-top: -60%;
 }
 
 .infoacc {
   font-size: 150%;
   text-align: center;
   margin-bottom: 3px;
+}
+
+.t1 {
+  width : 30%;
+  margin-left: 4%;
+}
+
+
+.t2 {
+  width : 30%;
+  margin-left: 60%;
+}
+
+.t3 {
+  margin-left: 4%;
+}
+
+.t4 {
+  margin-left: 60%;
 }
